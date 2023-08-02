@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../style/normalize.css">
+    <title>Our Team</title>
+    <style>
+        .landing .container {
+            display: block;
+            text-align: center;
+            color: rgb(246, 244, 249);
+        }
+        .landing .container h1 {
+            font-size: 50px;
+            margin:0 ;
+        }
+        .landing .container hr {
+            width: 80px;
+            color: rgba(246, 244, 249, 0.347) !important;
+        }
+        .landing .container ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:15px;
+        }
+        .landing .container ul li {
+            margin-right: 5px;
+        }
+        .landing .container ul li a {
+            color: #fff;
+            font-size: 20px;
+        }
+        .landing .container ul li .pages::before,
+        .landing .container ul li .Our_Team::before{
+            content: '/';
+            color: #6c757d;
+            padding-right:0.5rem;
+        }
+        .header  .pages_links .pages_items .active2 {
+            background-color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="section-dgit">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">
+                <h1>DGital</h1>
+                </a>
+                <nav class="nav">
+                    <button id="navbar-toggler" class="navbar-toggeler">
+                        <span class="fas fa-bars"></span>
+                    </button>
+                    <ul class="links">
+                        <li class="main_item"><a class="link" href="../index.html" >Home</a></li>
+                        <li class="main_item"><a href="../indexes/about.html" class="link">About</a></li>
+                        <li class="main_item"><a href="../indexes/services.html" class="link">Services</a></li>
+                        <li class="main_item"><a href="../indexes/projects.html" class="link">Project</a></li>
+                        <li class="main_item"><a class="pages_links link active">Pages +</a></li>
+                            <ul class="pages_items">
+                                <li class="item"><a href="../indexes/our_team.html" class="active2">Our Team</a></li>
+                                <li class="item"><a href="../indexes/testimonial.html">Testimonial</a></li>
+                                <li class="item"><a href="../indexes/404pages.html">404 Page</a></li>
+                            </ul>
+                        <li class="main_item"><a href="../indexes/contact.html" class="link">Contact</a></li>
+                        <li><button type="submit" class= "border-speical start_in_link" id="start_login">Get Started</button>
+                    </ul>
+                    <button type="submit" class="start border-speical" id="start_login2">Get Started</button>
+            </div>
+        </header>
+        <!-- End Headers -->
+        <section class="home" id="home">
+            <div class="login_section">
+                <button type="submit" id="close_login"><i class="fas fa-xmark"></i></button>
+                <form action="#">
+                    <label id="email_label">Email</label><input type="email" class="login" id="email_input"  placeholder="Email" required>
+                    <label id="label_username">Username or Email</label><input type="text" class="login" id="username" placeholder="Username or Email" required>
+                    <label>password</label><input type="password" class="login" id="password" placeholder="Passsword">
+                </form>
+                <div class="error-message" id="error-message"></div>
+                <div id="welcome-message"></div>
+                <button type="submit" id="login_in">Login In</button>
+                <button class="sign_up" id="sign_up"><a>Sign Up</a></button>
+            </div>
+        </section>
+        
+
+        <!-- End Pop Login -->
+        <div class="landing">
+            <div class="container">
+                <h1>Our Team</h1>
+                <hr>
+                <ul>
+                    <li><a href="../index.html"class="index">Home</a></li>
+                    <li><a href="#" class="pages">Pages</a></li>
+                    <li><a href="#" class="Our_Team">Our Team</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Landing -->
+
+        <div class="our-team">
+            <p class="main-header">
+                <span class="span-left"></span>
+                our team
+                <span class="span-right"></span>
+            </p>
+            <h1>Our Team Members</h1>
+            <div class="container">
+                <div class="boxes">
+                    <div class="box">
+                        <img src="../images/team-1.jpg" alt="team">
+                        <h4>John Doe</h4>
+                        <p>CEO & Founder</p>
+                        <hr>
+                        <div class="linkes">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="../images/team-2.jpg" alt="team">
+                        <h4>Jessica Brown</h4>
+                        <p>Web Designer</p>
+                        <hr>
+                        <div class="linkes">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="../images/team-3.jpg" alt="team">
+                        <h4>Tony Johnson</h4>
+                        <p>SEO Expert</p>
+                        <hr>
+                        <div class="linkes">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="../images/team-4.jpg" alt="team">
+                        <h4>Alexander Hipp</h4>
+                        <p>CEO Assistant</p>
+                        <hr>
+                        <div class="linkes">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="../images/team-5.jpg" alt="team">
+                        <h4>Stephanie Liverani</h4>
+                        <p>Accounts Seller</p>
+                        <hr>
+                        <div class="linkes">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="../images/team-6.jpg" alt="team">
+                        <h4>Kerlos Morian</h4>
+                        <p>SEO Expert</p>
+                        <hr>
+                        <div class="linkes">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer_section">
+            <div class="footer">
+                <div class="container">
+                    <div class="box">
+                        <p class="main-header">
+                            Adress
+                            <span class="span-right"></span>
+                        </p>
+                        <div class="line">
+                            <i class="fa fa-map-marked-alt"></i>
+                            <div class="info">
+                                123 Street, New York, USA
+                            </div>
+                        </div>               
+                        <div class="line">
+                            <i class="fa fa-phone-alt"></i>
+                            <div class="info">
+                                +012 345 67890
+                            </div>
+                        </div>
+                        <div class="line">
+                            <i class="fa fa-envelope"></i>
+                            <div class="info">
+                                mail@domain.com
+                            </div>
+                        </div>
+                        <div class="linkes_address">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/zeyadhamed"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p class="main-header">
+                            Quick Link
+                            <span class="span-right"></span>
+                        </p>
+                        <ul class="links">
+                            <a href="indexes/about.html"><li>About Us</li></a>
+                            <a href="indexes/contact.html"><li>Contact Us</li></a>
+                            <a href="#"><li>Privacy Policy</li></a>
+                            <a href="#"><li>Terms & Condition</li></a>
+                            <a href="#"><li>Career</li></a>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <p class="main-header">
+                            gallery
+                            <span class="span-right"></span>
+                        </p>
+                        <div class="gallery">
+                            <img src="../images/portfolio-1.jpg" alt="">
+                            <img src="../images/portfolio-2.jpg" alt="">
+                            <img src="../images/portfolio-3.jpg" alt="">
+                            <img src="../images/portfolio-4.jpg" alt="">
+                            <img src="../images/portfolio-5.jpg" alt="">
+                            <img src="../images/portfolio-6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p class="main-header">
+                            NewsLetter
+                            <span class="span-right"></span>
+                        </p>
+                        <div class="newsletters">
+                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu
+                            <div class="inputs">
+                                <input type="email" placeholder="Your Email">
+                                <button class="send">
+                                    <i class="fa fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <hr>
+                    &copy;<span>Ziad Hamed</span>,All Rights Reserved. Designed By <i class="fas fa-heart"></i>ME
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+        <button class="scroll" id="scroll"><i class="fas fa-angle-up"></i></button>
+    </div>
+    <div class="loading-page">
+        <div class="loader"></div>
+    </div>
+    <script src="../js/main.js"></script>
+
+<script>
+    // Function to shuffle and remove duplicates from the boxes
+// Function to shuffle and remove duplicates from the boxes
+function shuffleAndRemoveDuplicates() {
+    const boxesContainer = document.querySelector('.boxes');
+    const boxes = Array.from(boxesContainer.children);
+
+    // Create a new Set to store the references to unique boxes
+    const uniqueBoxesSet = new Set();
+
+    // Shuffle the order of the boxes using Fisher-Yates (Knuth) Shuffle algorithm
+    for (let i = boxes.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [boxes[i], boxes[j]] = [boxes[j], boxes[i]];
+    }
+
+  // Remove all boxes from the container
+    boxesContainer.innerHTML = '';
+
+    // Create a temporary array to store the unique boxes
+    const uniqueBoxesArray = [];
+
+    // Add the shuffled unique boxes to the temporary array
+    boxes.forEach((box) => {
+        if (!uniqueBoxesSet.has(box.outerHTML)) {
+        uniqueBoxesSet.add(box.outerHTML);
+        uniqueBoxesArray.push(box);
+        }
+    });
+
+    // Add the unique boxes back to the container
+    uniqueBoxesArray.forEach((box) => {
+        boxesContainer.appendChild(box);
+    });
+}
+
+// Call the shuffleAndRemoveDuplicates function when the page is loaded or refreshed
+window.addEventListener('load', shuffleAndRemoveDuplicates);
+
+</script>
+
+    
+</body>
+</html>

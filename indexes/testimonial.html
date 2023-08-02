@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../style/normalize.css">
+    <title>Testimonial</title>
+    <style>
+        .landing .container {
+            display: block;
+            text-align: center;
+            color: rgb(246, 244, 249);
+        }
+        .landing .container h1 {
+            font-size: 50px;
+            margin:0 ;
+        }
+        .landing .container hr {
+            width: 80px;
+            color: #f6f4f958 !important;
+        }
+        .landing .container ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:15px;
+        }
+        .landing .container ul li {
+            margin-right: 5px;
+        }
+        .landing .container ul li a {
+            color: #fff;
+            font-size: 20px;
+        }
+        .landing .container ul li .pages::before,
+        .landing .container ul li .testimonia_l::before{
+            content: '/';
+            color: #6c757d;
+            padding-right:0.5rem;
+        }
+        .header  .pages_links .active2 {
+            background-color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="section-dgit">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">
+                <h1>DGital</h1>
+                </a>
+                <nav class="nav">
+                    <button id="navbar-toggler" class="navbar-toggeler">
+                        <span class="fas fa-bars"></span>
+                    </button>
+                    <ul class="links">
+                        <li class="main_item"><a class="link" href="../index.html" >Home</a></li>
+                        <li class="main_item"><a href="../indexes/about.html" class="link">About</a></li>
+                        <li class="main_item"><a href="../indexes/services.html" class="link">Services</a></li>
+                        <li class="main_item"><a href="../indexes/projects.html" class="link">Project</a></li>
+                        <li class="main_item"><a class="pages_links link active">Pages +</a></li>
+                            <ul class="pages_items">
+                                <li class="item"><a href="../indexes/our_team.html">Our Team</a></li>
+                                <li class="item"><a href="../indexes/testimonial.html" class="active2">Testimonial</a></li>
+                                <li class="item"><a href="../indexes/404pages.html">404 Page</a></li>
+                            </ul>
+                        <li class="main_item"><a href="/indexes/contact.html" class="link">Contact</a></li>
+                        <li><button type="submit" class= "border-speical start_in_link" id="start_login">Get Started</button>
+                    </ul>
+                    <button type="submit" class="start border-speical" id="start_login2">Get Started</button>
+            </div>
+        </header>
+        <!-- End Headers -->
+        <section class="home" id="home">
+            <div class="login_section">
+                <button type="submit" id="close_login"><i class="fas fa-xmark"></i></button>
+                <form action="#">
+                    <label id="email_label">Email</label><input type="email" class="login" id="email_input"  placeholder="Email" required>
+                    <label id="label_username">Username or Email</label><input type="text" class="login" id="username" placeholder="Username or Email" required>
+                    <label>password</label><input type="password" class="login" id="password" placeholder="Passsword">
+                </form>
+                <div class="error-message" id="error-message"></div>
+                <div id="welcome-message"></div>
+                <button type="submit" id="login_in">Login In</button>
+                <button class="sign_up" id="sign_up"><a>Sign Up</a></button>
+            </div>
+        </section>
+        <!-- End Pop Login -->
+        <div class="landing">
+            <div class="container">
+                <h1>Testimonial</h1>
+                <hr>
+                <ul>
+                    <li><a href="../index.html"class="index">Home</a></li>
+                    <li><a href="#" class="pages">Pages</a></li>
+                    <li><a href="#" class="testimonia_l">Testimonial</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Landing -->
+
+        <div class="testimonial">
+            <p class="main-header">
+                <span class="span-left"></span>
+                Testimonial
+                <span class="span-right"></span>
+            </p>
+            <h1>What Say Our Clients!</h1>
+            <div class="container">
+                <div class="boxes" id="boxes_testimonial">
+
+                        <div class="box box1" id="box_testimonial">
+                            <p class="fs-5">
+                                <i class="fas fa-quote-left fa-4x quote"></i>
+                                "Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo."
+                            </p>
+                            <div class="client">
+                                <img src="../images/testimonial-1.jpg" alt="" class="logo">
+                                <div class="client_info">
+                                    <h3>Client Name</h3>
+                                    <p>Profession</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box box2" id="boxe_testimonial">
+                            <p class="fs-5">
+                                <i class="fas fa-quote-left fa-4x quote"></i>
+                                "Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo."
+                            </p>
+                            <div class="client">
+                                <img src="../images/testimonial-2.jpg" alt="" class="logo">
+                                <div class="client_info">
+                                    <h3>Client Name</h3>
+                                    <p>Profession</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box3" id="boxe_testimonial">
+                            <p class="fs-5">
+                                <i class="fas fa-quote-left fa-4x quote"></i>
+                                "Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo."
+                            </p>
+                            <div class="client">
+                                <img src="../images/testimonial-3.jpg" alt="" class="logo">
+                                <div class="client_info">
+                                    <h3>Client Name</h3>
+                                    <p>Profession</p>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="buttons">
+                    <div class="prev" id="prev_testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="next" id="next_testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer_section">
+            <div class="footer">
+                <div class="container">
+                    <div class="box">
+                        <p class="main-header">
+                            Adress
+                            <span class="span-right"></span>
+                        </p>
+                        <div class="line">
+                            <i class="fa fa-map-marked-alt"></i>
+                            <div class="info">
+                                123 Street, New York, USA
+                            </div>
+                        </div>               
+                        <div class="line">
+                            <i class="fa fa-phone-alt"></i>
+                            <div class="info">
+                                +012 345 67890
+                            </div>
+                        </div>
+                        <div class="line">
+                            <i class="fa fa-envelope"></i>
+                            <div class="info">
+                                mail@domain.com
+                            </div>
+                        </div>
+                        <div class="linkes_address">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/zeyadhamed"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p class="main-header">
+                            Quick Link
+                            <span class="span-right"></span>
+                        </p>
+                        <ul class="links">
+                            <a href="indexes/about.html"><li>About Us</li></a>
+                            <a href="indexes/contact.html"><li>Contact Us</li></a>
+                            <a href="#"><li>Privacy Policy</li></a>
+                            <a href="#"><li>Terms & Condition</li></a>
+                            <a href="#"><li>Career</li></a>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <p class="main-header">
+                            gallery
+                            <span class="span-right"></span>
+                        </p>
+                        <div class="gallery">
+                            <img src="../images/portfolio-1.jpg" alt="">
+                            <img src="../images/portfolio-2.jpg" alt="">
+                            <img src="../images/portfolio-3.jpg" alt="">
+                            <img src="../images/portfolio-4.jpg" alt="">
+                            <img src="../images/portfolio-5.jpg" alt="">
+                            <img src="../images/portfolio-6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p class="main-header">
+                            NewsLetter
+                            <span class="span-right"></span>
+                        </p>
+                        <div class="newsletters">
+                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu
+                            <div class="inputs">
+                                <input type="email" placeholder="Your Email">
+                                <button class="send">
+                                    <i class="fa fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <hr>
+                    &copy;<span>Ziad Hamed</span>,All Rights Reserved. Designed By <i class="fas fa-heart"></i>ME
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+        <button class="scroll" id="scroll"><i class="fas fa-angle-up"></i></button>
+    </div>
+    <div class="loading-page">
+        <div class="loader"></div>
+    </div>
+<script src="../js/main.js"></script>
+</body>
+</html>
